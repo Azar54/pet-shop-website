@@ -1,0 +1,30 @@
+/* src/App.css or src/components/BackToTop.css */
+
+.back-to-top-container {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .back-to-top-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: ;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .back-to-top-button:hover {
+    background-color: #1ebe5b;
+    transform: translateY(-3px);
+  }
+  
+  .back-to-top-button:focus {
+    outline: none;
+  }
+  

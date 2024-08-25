@@ -1,0 +1,56 @@
+/* SearchResults.css */
+
+.search-results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .item-card {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .item-info {
+    padding: 20px;
+  }
+  
+  .item-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .item-description {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .item-category {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .item-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .item-card {
+      width: 100%;
+    }
+  }
+  

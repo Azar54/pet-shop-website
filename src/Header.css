@@ -1,0 +1,18 @@
+/* Header.css */
+.navbar {
+  margin-bottom: 0;
+}
+
+#navbarNav {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  margin-right: 10px;
+}

@@ -1,0 +1,59 @@
+/* src/pages/About.css */
+
+.about {
+    padding-top: 20px;
+  }
+  
+  .company-history-section,
+  .mission-statement-section,
+  .team-section,
+  .testimonials-section {
+    padding: 50px 0;
+  }
+  
+  .company-history-section {
+    background-color: #f8f9fa;
+  }
+  
+  .company-history-section h1 {
+    margin-bottom: 20px;
+  }
+  
+  .mission-statement-section {
+    background-color: #fff;
+  }
+  
+  .mission-statement-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .team-section {
+    background-color: #f8f9fa;
+  }
+  
+  .team-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .team-member-card {
+    margin-bottom: 30px;
+  }
+  .team-member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  .testimonials-section {
+    background-color: #fff;
+  }
+  
+  .testimonials-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .blockquote {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+  }
+  

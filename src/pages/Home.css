@@ -1,0 +1,49 @@
+/* src/pages/Home.css */
+
+.home {
+    padding-top: 1px;
+  }
+  
+  .welcome-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+  }
+  
+  .featured-products-section {
+    padding: 50px 0;
+  }
+  
+  .featured-products-section .card {
+    margin-bottom: 30px;
+  }
+  
+  .services-overview-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .services-overview-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-section {
+    padding: 50px 0;
+  }
+  
+  .testimonials-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .blockquote {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+    border-right: 5px solid #007bff;
+  }
+  .blockquote-footer{
+    padding-top: 15px;
+  }

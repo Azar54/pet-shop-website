@@ -1,0 +1,53 @@
+/* src/pages/FishSupplies.css */
+
+.fish-supplies {
+    padding-top: 20px;
+  }
+  
+  .intro-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .intro-section .container {
+    text-align: center;
+  }
+  
+  .intro-section h1 {
+    margin-bottom: 20px;
+  }
+  
+  .aquariums-section,
+  .food-section,
+  .decorations-section,
+  .equipment-section,
+  .maintenance-section {
+    padding: 50px 0;
+  }
+  
+  .aquariums-section h2,
+  .food-section h2,
+  .decorations-section h2,
+  .equipment-section h2,
+  .maintenance-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  

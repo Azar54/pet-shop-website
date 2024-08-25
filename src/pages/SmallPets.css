@@ -1,0 +1,48 @@
+/* src/pages/SmallPets.css */
+
+.small-pets {
+    padding-top: 20px;
+  }
+  
+  .intro-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .intro-section .container {
+    text-align: center;
+  }
+  
+  .intro-section h1 {
+    margin-bottom: 20px;
+  }
+  
+  .pet-section {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pet {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .pet img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .pet h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pet p {
+    font-size: 1rem;
+  }
+  
